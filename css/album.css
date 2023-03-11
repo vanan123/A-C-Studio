@@ -1,0 +1,230 @@
+:root {
+    --blue: #2196F3;
+    --red: #F44336;
+    --white: #fff;
+    --gray: #f1f2f6;
+    --opacity-md: 0.6;
+    --opacity-lg: 0.87;
+    --opacity-sm: 0.38;
+    --bg-footer: #18283C;
+    --orange: #f37e21;
+    --yellow: #f1c40f;
+    --blue-gradient: linear-gradient(#2196F3, #21f3e9);
+}
+body {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.logo{
+	width: 150px;
+	height: 50px;
+	border: 0.5px solid #ff9999;
+	border:none;
+	position: relative;
+	margin-left: 1.5em;
+}
+.navbar-toggler-icon{
+	background-color: #ff0066;
+	border: 1px solid black;
+	width: 50px;
+}
+li{
+	margin-left: 3em;
+}
+#logo{
+	position: relative;
+	z-index: 9999;
+}
+.slimmenu li a.nav-link{
+	font-size: 18px;
+	font-family: "Aria",sans-serif;
+	text-shadow: 0 0 2px #0080ff;
+}
+.dropdown-menu{
+	padding:7px;
+	margin: 0;
+	font-size: 15px;
+	background-color:  #3399ff;
+}
+
+ul.slimmenu li a:hover, ul.slimmenu li a:focus, ul.slimmenu li.current {
+	background-color:  #ff0066;
+	text-decoration: none;
+}
+#breadcrumb-wrapper{
+	margin:13px;
+}
+ol.breadcrumb{
+	background: url(../img/line-mainbox.png) repeat-x left bottom #fff;
+}
+
+.breadcrumb li a:hover,.breadcrumb li a:focus{
+	text-decoration: none;
+	color:  #ff33bb;
+}
+.breadcrumb-item{
+	padding:0;
+	margin:0;
+}
+.sale{
+	background: url(../img/line-mainbox.png) repeat-x left bottom white;
+}
+.article-title {
+    margin: 1em 0;
+    font-weight: bold;
+    color: #ff80bf;
+    letter-spacing: 2px;
+}
+.place-sale p{
+	text-align: center;
+	font-weight:bold;
+}
+.place-sale-info-sale{
+	color: red;
+}
+
+.place-sale {
+    transition: all 0.3s;
+    height: 100%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.place-sale-img {
+    width: 100%;
+}
+.place-sale-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.place-sale:hover {
+    transform: translateY(-7px);
+}
+.pricingTable{    
+text-align: center;    
+transition: all 0.5s ease 0s;
+}
+ 
+.pricingTable:hover{    
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+ 
+.pricingTable .pricingTable-header{    
+color: #feffff;
+}
+ 
+.pricingTable .heading{    
+display: block;    
+padding-top: 25px;
+}
+.pricingTable .heading > h3{    
+font-size: 20px;    
+margin: 0;    
+text-transform: capitalize;
+}
+ 
+.pricingTable .price-value{    
+display: block;    
+font-size: 32px;    
+font-weight: 700;    
+padding-bottom: 25px;
+}
+ 
+.pricingTable .price-value span{    
+display: block;    
+font-size: 14px;    
+line-height: 20px;    
+text-transform: uppercase;
+}
+ 
+.pricingTable .pricingContent{    
+text-transform: capitalize;    
+background: #fbfbfb;    
+color: #fefeff;
+}
+ 
+.pricingTable .pricingContent ul{    
+list-style: none;    
+padding: 15px 20px 10px;    
+margin: 0;    
+text-align: left;
+}
+.pricingTable .pricingContent ul li{    
+font-size: 14px;    
+padding: 12px 0;    
+border-bottom: 1px dashed #e1e1e1;    
+color: #9da1ad;
+}
+ 
+.pricingTable .pricingContent ul li i{    
+font-size: 14px;    
+float: right;
+}
+ 
+.pricingTable .pricingTable-sign-up{    
+padding: 20px 0;    
+background: #fbfbfb;    
+color: #fff;    
+text-transform: 
+capitalize;
+}
+ 
+.pricingTable .btn-block{    
+width: 60%;    
+margin: 0 auto;    
+font-size: 17px;    
+color: #fff;    
+text-transform: capitalize;    
+border: none;    
+border-radius: 5px;    
+padding: 10px;    
+transition: all 0.5s ease 0s;
+}
+ 
+
+ 
+.pricingTable.blue .pricingTable-header,.pricingTable.blue .btn-block{    
+background: #727cb6;
+}
+ 
+.pricingTable.pink .pricingTable-header,.pricingTable.pink .btn-block{    
+background: #ed687c;
+}
+ 
+.pricingTable.orange .pricingTable-header,.pricingTable.orange .btn-block{    
+background: #e67e22;
+}
+ 
+.pricingTable.green .pricingTable-header,.pricingTable.green .btn-block{    
+background: #008b8b;
+}
+ 
+.pricingTable.blue .btn-block:hover,.pricingTable.pink .btn-block:hover,.pricingTable.orange .btn-block:hover,.pricingTable.green .btn-block:hover{    
+background: #e6e6e6;    
+color: #939393;
+}
+ 
+@media screen and (max-width: 990px){    
+.pricingTable{ 
+margin-bottom: 20px; 
+}
+}
+h6{
+	color: #ff80bf;
+	font-size: 18px;
+}
+.mr-3{
+	color: white;
+	font-size: 25px;
+}
+.col-lg-3 p,.col-lg-3 p a{
+	color:white;
+	font-size: 15px; 
+}
+.mt-3 p a:hover,.mt-3 p a:focus{
+	text-decoration: none;
+	color: #33ccff;
+}

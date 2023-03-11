@@ -1,0 +1,180 @@
+body {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.logo{
+	width: 150px;
+	height: 50px;
+	border: 0.5px solid #ff9999;
+	border:none;
+	position: relative;
+	margin-left: 1.5em;
+}
+.navbar-toggler-icon{
+	background-color: #ff0066;
+	border: 1px solid black;
+	width: 50px;
+}
+li{
+	margin-left: 3em;
+}
+#logo{
+	position: relative;
+	z-index: 9999;
+}
+.slimmenu li a.nav-link{
+	font-size: 18px;
+	font-family: "Aria",sans-serif;
+	text-shadow: 0 0 2px #0080ff;
+}
+.dropdown-menu{
+	padding:7px;
+	margin: 0;
+	font-size: 15px;
+	background-color:  #3399ff;
+}
+
+ul.slimmenu li a:hover, ul.slimmenu li a:focus, ul.slimmenu li.current {
+	background-color:  #ff0066;
+	text-decoration: none;
+}
+#breadcrumb-wrapper{
+	margin:13px;
+}
+ol.breadcrumb{
+	background: white;
+	
+}
+.breadcrumb li a:hover,.breadcrumb li a:focus{
+	text-decoration: none;
+	color:  #ff33bb;
+}
+.breadcrumb-item{
+	padding:0;
+	margin:0;
+}
+.breadcrumb-item img {
+	height: 20px;
+	width: 25px;
+}
+.dress-img {
+    width: 100%;
+    height: 70vh;
+}
+.dress-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dress-description h1 {
+    color: #ff0066;
+}
+#dress-code{
+	color:#00ccff;
+	font-size: 20px;
+}
+.dress-stars {
+    color: #f1c40f;
+}
+.vote {
+    font-size: 13px;
+}
+.price {
+    color: #ff0066;
+    font-size: 23px;
+}
+.price span {
+    text-decoration: underline;
+}
+.tilte,.share p{
+	color: #00ccff;
+	font-size: 20px;
+}
+.price-dress{
+	word-spacing: 2px;
+}
+.dress-btns button {
+    transition: all 0.3s;
+}
+.dress-btns button:hover {
+    transform: scale(0.9);
+}
+.share{
+	margin-top: 1em;
+}
+.share button .face,.share button .twitter,.share button .love{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;	
+}
+.share button :hover .face,.share button :hover .twitter,.share button :hover .love{
+	visibility: visible;
+}
+.dress-card {
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.dress-card img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dress-card-name a {
+    color: #fff;
+}
+.dress-card-name {
+    position: absolute;
+    left: 0;
+    bottom: -25%;
+    width: 100%;
+    padding: 0.5em 0;
+    font-weight: bold;
+    text-align: center;
+    background-color: #dc143c;
+    transition: all 0.3s;
+}
+.dress-card:hover .dress-card-name {
+    bottom: 40%;
+}
+.progress-bar {
+    margin-left: 2em;
+    background-color: #dc143c;
+    border-radius: 4px;
+    height: 10px;
+    margin-top: 0.5rem;
+}
+.cus-review {
+    border-radius: 5px;
+    padding: 1em;
+    background-color: #eee;
+}
+
+h6{
+	color: #ff80bf;
+	font-size: 18px;
+}
+.mr-3{
+	color: white;
+	font-size: 25px;
+}
+.col-lg-3 p,.col-lg-3 p a{
+	color:white;
+	font-size: 15px; 
+}
+.mt-3 p a:hover,.mt-3 p a:focus{
+	text-decoration: none;
+	color: #33ccff;
+}

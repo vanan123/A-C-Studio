@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <title>Sản phẩm - A&C Studio</title>
+    <link rel="icon" type="image/x-icon" href="../img/img3.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+   <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css”/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/7f35253e31.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/view.css">
+</head>
+<body>
+   <header>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark navbar-fixed-top">
+   <a  data-toggle="tooltip" title="A&C Wedding Studio" href="../html/main.html" class="navbar-brand hiden-lg"  id="logo">
+    <img class="logo" src="../img/logo1.png" alt="logo">
+  </a>
+  <button class="navbar-toggler btn-warning " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon rounded"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="collapsibleNavbar">
+   <ul class="nav navbar-nav navbar-right slimmenu collapse collapsed" style="display: inline-flex;margin-left: 7em;">
+      <li class="nav-item " >
+        <a class="nav-link text-primary" href="../html/main.html">Trang chủ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-primary" href="../html/about.html">Giới thiệu</a> 
+      </li>
+      <li class="nav-item current">
+        <a class="nav-link text-primary" href="../html/album.html" >Áo cưới</a>
+      </li>
+      <li class="nav-item dropdown ">
+      <a class="nav-link dropdown-toggle active text-primary" href="#" id="drop" data-toggle="dropdown">
+        Thành viên
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item active" href="../html/login.html">Đăng nhập</a>
+        <a class="dropdown-item" href="../html/registration.html">Đăng ký</a>
+      </div>
+    </li>
+    </ul>
+</div>
+</nav>
+    </header>
+    <div class="pagecontent">
+    <section id="breadcrumb-wrapper">
+        
+            <div class="wrapper">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="../html/main.html">
+                                <span><i class="fas fa-home"></i></span>
+                                Trang chủ
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            <a href="../html/album.html">
+                                <span><img src="../img/1.png" alt="1"></span>
+                                Áo cưới
+                            </a>   
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                        <span><img src="../img/2.png" alt="2">
+                        ÁO CƯỚI SP113 TÙNG XÒE
+                        </span>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+    </section>
+    <main>
+        <section class="container">
+            <div class="row mb-5">
+                <div class="col-sm-6">
+                    <div class="dress-img">
+                        <img src="../img/aocuoi1.jpg" alt="meal">
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="dress-description">
+                        <h1 id="dress-name">ÁO CƯỚI TÙNG XÒE</h1>
+                        <p id="dress-code">Mã sản phẩm : <span style="font-weight: bold;color:#ff33cc">SP113</span></p>
+                        <p>
+                            <span class="dress-stars mr-1">★★★★✰</span>
+                            <span class="vote">Bởi 99 khách hàng</span>
+                        </p>
+                        <h2 class="price" id="price">
+                            15,000,000<span>đ</span>
+                        </h2>
+                        <h2 id="rent" style="display: none;">
+                            7,500,000<span><u>đ</u></span>
+                        </h2>
+                        <div>
+                        <p class="tilte">
+                         <label for="select">Lựa chọn của bạn</label></p>
+                         <p class="price-dress">
+                         <input type="radio" name="select" id="select1" checked> Mua
+                         <input type="radio" name="select" id="select2" style="margin-left: 2em"> Thuê
+                        </p>
+                        </div>
+                    </div>
+                    <div class="dress-btns">
+                        <button class="btn btn-warning" onclick="window.alert('Đã thêm '+document.getElementById('dress-name').innerHTML+' vào giỏ hàng');">Thêm vào giỏ</button>
+                    </div>
+                    <div class="share">
+                        <p>Chia sẻ : 
+                        <button class="btn face" data-toggle="tooltip" data-placement="bottom" title="Chia sẻ với Facebook">
+                            <i class="fab fa-facebook" style="color: #0066ff"></i>
+                        </button>
+                        <button class="btn twitter" data-toggle="tooltip" data-placement="bottom" title="Chia sẻ với Twitter">
+                            <i class="fab fa-twitter" style="color: #66ffff"></i>
+                        </button>
+                        <button class="btn love" data-toggle="tooltip" data-placement="bottom" title="Thả tim">
+                            <i class="fas fa-heart" style="color: #dc143c;"></i>
+                        </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+                <div style="margin-top: 2em;">
+            <h4 style="font-size: 25px;color:#dc143c ">Có thể bạn thích</h4>
+            <div class="row mb-5 related-dress">
+                <div class="col-md-3 col-sm-6">
+                    <div class="dress-card">
+                        <img src="../img/aocuoi3.jpg" alt="1">
+                        <div class="dress-card-name">
+                            <a href="#">ÁO CƯỚI PHI THUN</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="dress-card">
+                        <img src="../img/aocuoi11.jpg" alt="2">
+                        <div class="dress-card-name">
+                            <a href="#">ÁO CƯỚI THÂN SUÔNG</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="dress-card">
+                        <img src="../img/aocuoi5.jpg" alt="3">
+                        <div class="dress-card-name">
+                            <a href="#">ÁO CƯỚI CÁNH TIÊN</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="dress-card">
+                        <img src="../img/aocuoi9.jpg" alt="4">
+                        <div class="dress-card-name">
+                            <a href="#">ÁO CƯỚI  ĐUÔI CÁ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <h3 style="color: #dc143c;font-size: 25px;">Đánh giá từ khách hàng</h3>
+
+            <div class="row customer-rating">
+                <div class="col-sm-12 stars-rating">
+                    <div class="d-flex">
+                        <span>5 ★</span>
+                        <div class="progress-bar" style="width:70%"></div>
+                      </div>
+                      <div class="d-flex">
+                        <span>4 ★</span>
+                        <div class="progress-bar" style="width:40%"></div>
+                      </div>
+                      <div class="d-flex">
+                        <span>3 ★</span>
+                        <div class="progress-bar" style="width:15%"></div>
+                      </div>
+                      <div class="d-flex">
+                        <span>2 ★</span>
+                        <div class="progress-bar" style="width:7%"></div>
+                      </div>
+                      <div class="d-flex">
+                        <span>1 ★</span>
+                        <div class="progress-bar" style="width:1%"></div>
+                      </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="cus-review">
+                      <p><a href="#">Nguyễn Văn An</a></p>
+                      <p><span class="dress-stars">★★★★★</span></p>
+                      <p class="comment" style="color: #dc143c">
+                          Sản phẩm rất tốt.Dịch vụ cũng rất tuyệt!
+                      </p>  
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="cus-review">
+                      <p><a href="#">Văn Viết Thìn</a></p>
+                      <p><span class="dress-stars">★★★★★</span></p>
+                      <p class="comment" style="color: #dc143c">
+                          Áo cưới thật sự rất đẹp.Dịch vụ rất tốt!
+                      </p>  
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">   
+                     <div class="cus-review">
+                      <p><a href="#">Đoàn Kim Chi</a></p>
+                      <p><span class="dress-stars">★★★★</span></p>
+                      <p class="comment" style="color: #dc143c">
+                         Chất liệu vải rất OK.Giao hàng rất nhanh!
+                      </p>  
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">   
+                     <div class="cus-review">
+                      <p><a href="#">Hồ Nhất Thiên</a></p>
+                      <p><span class="dress-stars">★★★★★</span></p>
+                      <p class="comment" style="color: #dc143c">
+                         Dịch vụ chăm sóc khách hàng rất tốt!
+                      </p>  
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+     <div class="footer" style="margin-top: 1em;">
+    <!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4 bg-dark">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">A&C Wedding Studio</h6>
+        <a  data-toggle="tooltip" title="Studio A&C" href="../html/main.html" class="navbar-brand hiden-lg"  id="logo">
+    <img class="logo" src="../img/logo1.png" alt="logo">
+  </a>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none bg-warning">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Sản phẩm và dịch vụ</h6>
+        <p>
+          <a href="#!">Dịch vụ ngày cưới</a>
+        </p>
+        <p>
+          <a href="#!">Chụp album cưới</a>
+        </p>
+        <p>
+          <a href="#!">Mua/bán/cho thuê áo cưới</a>
+        </p>
+        <p>
+          <a href="#!">Chụp hình kỷ niệm ngày cưới</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none bg-warning">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Hỗ trợ khách hàng</h6>
+        <p>
+          <a href="#!">Chính sách đổi trả</a>
+        </p>
+        <p>
+          <a href="#!">Phương thức thanh toán</a>
+        </p>
+        <p>
+          <a href="#!">Chính sách vận chuyển</a>
+        </p>
+        <p>
+          <a href="#!">Chính sách bảo mật</a>
+        </p>
+      </div>
+
+      <!-- Grid column -->
+      <hr class="w-100 clearfix d-md-none bg-warning">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Liên hệ</h6>
+        <p>
+          <i class="fa fa-home mr-3"></i>KTX Cao Đẳng CNTT, Ngũ Hành Sơn, Đà Nẵng</p>
+        <p>
+          <i class="fa fa-envelope mr-3"></i> A&CTeam@gmail.com</p>
+        <p>
+          <i class="fa fa-phone mr-3"></i>0906554075</p>
+        <p>
+      
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Footer links -->
+  </div>
+  <!-- Footer Links -->
+</footer>
+<!-- Footer -->
+ <!-- Grid row -->
+    <div class="row d-flex align-items-center" style="height: 70px;background: white;">
+
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-8">
+
+        <!--Copyright-->
+        <p class="text-center text-md-left">© 2020 Bản quyền thuộc về A&C WEDDING STUDIO | 
+          <a href="#">
+            <strong> Thiết kế bởi A&C Team</strong>
+          </a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+        <!-- Social buttons -->
+        <div class="text-center" style="padding: 0;margin: 0">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1" href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook">
+                <i class="fa fa-facebook-f icon" style="color:  #1a66ff;font-size: 25px;"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1" href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter">
+                <i class="fa fa-twitter" style="color: #4dffff;font-size: 25px;"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1" href="#" data-toggle="tooltip" data-placement="bottom" title="Gmail">
+                <i class="fa fa-google-plus" style="color:  #ff1a1a;font-size: 25px;"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+  </div>
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+</body>
+</html>
